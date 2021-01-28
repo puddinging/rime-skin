@@ -348,7 +348,7 @@ patch:
       hilited_candidate_back_color: 0x444444
       comment_text_color: 0x808080  
 ```
-
+---
 ![](pic/starcraft星际我争霸.jpg)
 
 ```
