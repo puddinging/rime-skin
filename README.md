@@ -1,4 +1,6 @@
-## Rime 鼠须管（Squirrel）皮肤效果
+##  Rime 鼠须管（Squirrel）皮肤效果
+![未标题-1](https://tva2.sinaimg.cn/large/008eZBHKgy1gn645oa9r2j31e02to7pm.jpg)
+
 ```
 patch:
   show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）  
@@ -44,16 +46,12 @@ patch:
 
   preset_color_schemes:
 ```
----
-![](pic/系统配色.jpg)
+
 
 ```
     native:
       name: 系統配色
 ```
----
-![](pic/macos_light原生亮色.jpg)
-
 ```
     macos_light:
       name: Mac仿原生亮色/macos_light
@@ -82,9 +80,6 @@ patch:
       border_color_width: 0   #输入条边框宽度
       #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 ```
----
-![](pic/macos_dark原生暗色.jpg)
-
 ```
     macos_dark:
       name: Mac仿原生暗色/macos_dark
@@ -113,9 +108,6 @@ patch:
       border_color_width: 0   #输入条边框宽度
       #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 ```
----
-![](pic/apathy冷漠.jpg)
-
 ```
     apathy:
       name: 冷漠／Apathy
@@ -136,9 +128,6 @@ patch:
       hilited_candidate_back_color: 0xFFF0E4  #候选文字背景色
       comment_text_color: 0x999999  #拼音等提示文字颜色
 ```
----
-![](pic/aqua碧水.jpg)
-
 ```
     aqua:
       name: 碧水／Aqua
@@ -152,9 +141,6 @@ patch:
       comment_text_color: 0x5a5a5a
       hilited_comment_text_color: 0xfcac9d
 ```
----
-![](pic/azure青天.jpg)
-
 ```
     azure:
       name: 青天／Azure
@@ -167,8 +153,6 @@ patch:
       hilited_candidate_back_color: 0x00000000
       comment_text_color: 0xc69664
 ```
----
-![](pic/clean_white简约白.jpg)
 ```
     clean_white:
       name: 简约白／Clean White
@@ -190,9 +174,6 @@ patch:
       hilited_candidate_text_color: 0xc98915
       hilited_candidate_back_color: 0xeeeeee
 ```
----
-![](pic/dark_temple暗堂.jpg)
-
 ```
     dark_temple:
       name: 暗堂／Dark Temple
@@ -206,8 +187,6 @@ patch:
       hilited_candidate_back_color: 0x10000000  # 0x333333
       comment_text_color: 0x606cff
 ```
----
-![](pic/dust浮尘.jpg)
 ```
     dust:
       name: 浮尘／Dust
@@ -234,9 +213,6 @@ patch:
       hilited_candidate_label_color: 0x555555            # 第一候选项编号颜色
       hilited_comment_text_color: 0x9e9e9e               # 注解文字高亮
 ```
----
-![](pic/ink墨池.jpg)
-
 ```
     ink:
       name: 墨池／Ink
@@ -251,9 +227,6 @@ patch:
       comment_text_color: 0x5a5a5a
       hilited_comment_text_color: 0x808080
 ```
----
-![](pic/google谷歌.jpg)
-
 ```
     google:
       name: 谷歌／Google
@@ -269,9 +242,6 @@ patch:
       comment_text_color: 0x6D6D6D #注解文字
       hilited_comment_text_color: 0xEBC6B0 #注解文字高亮
 ```
----
-![](pic/luna明月.jpg)
-
 ```
     luna:
       name: 明月／Luna
@@ -285,8 +255,6 @@ patch:
       comment_text_color: 0xa5a5a5
       hilited_comment_text_color: 0x449c9d
 ```
----
-![](pic/lost_temple孤寺.jpg)
 ```
     lost_temple:
       name: 孤寺／Lost Temple
@@ -299,9 +267,6 @@ patch:
       comment_text_color: 0xbb82e6ca
       hilited_comment_text_color: 0xbb203d34
 ```
----
-![](pic/psionics幽能.jpg)
-
 ```
     psionics:
       name: 幽能／Psionics
@@ -317,8 +282,6 @@ patch:
       comment_text_color: 0x808080
       hilited_comment_text_color: 0x444444  
 ```
----
-![](pic/purity_of_form纯粹的形式.jpg)
 ```
     purity_of_form:
       name: 純粹的形式／Purity of Form
@@ -332,9 +295,6 @@ patch:
       hilited_candidate_back_color: 0xfafafa
       comment_text_color: 0x808080
 ```
----
-![](pic/purity_of_essence.jpg)
-
 ```
     purity_of_essence:
       name: 純粹的本質／Purity of Essence
@@ -348,9 +308,6 @@ patch:
       hilited_candidate_back_color: 0x444444
       comment_text_color: 0x808080  
 ```
----
-![](pic/starcraft星际我争霸.jpg)
-
 ```
     starcraft:
       name: 星際我爭霸／StarCraft
@@ -366,9 +323,6 @@ patch:
       comment_text_color: 0x1010d0
       hilited_comment_text_color: 0x1010f0
 ```
----
-![](pic/solarized_rock晒经石.jpg)
-
 ```
     solarized_rock:
       name: 曬經石／Solarized Rock
@@ -383,9 +337,6 @@ patch:
       hilited_candidate_back_color: 0x8236d3
       hilited_comment_text_color: 0x362b00
 ```
----
-![](pic/solarized_light晒经日.jpg)
-
 ```
     solarized_light:
       name: 曬經・日／Solarized Light
@@ -405,9 +356,6 @@ patch:
       hilited_comment_text_color: 0x289989 #Lab 60, -20, 65
       hilited_text_color: 0xBE706D #Lab 50, 15, -45    
 ```
----
-![](pic/solarized_dark晒经月.jpg)
-
 ```
     solarized_dark:
       name: 曬經・月／Solarized Dark
@@ -427,7 +375,6 @@ patch:
       hilited_comment_text_color: 0x8144C2 #Lab 50, 65, -5
       hilited_text_color: 0x2C8BAE #Lab 60, 10, 65
 ```
----
 ```
   app_options:    # App默认英文
     com.apple.Spotlight:
