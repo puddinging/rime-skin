@@ -45,14 +45,10 @@ patch:
   label_font_point: 18
 
   preset_color_schemes:
-```
 
-
-```
     native:
       name: 系統配色
-```
-```
+
     macos_light:
       name: Mac仿原生亮色/macos_light
       author: 一方
@@ -79,8 +75,7 @@ patch:
       border_width: 4   # 窗口左右宽度
       border_color_width: 0   #输入条边框宽度
       #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
-```
-```
+
     macos_dark:
       name: Mac仿原生暗色/macos_dark
       author: 一方
@@ -107,8 +102,7 @@ patch:
       border_width: 4   # 窗口左右宽度
       border_color_width: 0   #输入条边框宽度
       #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
-```
-```
+
     apathy:
       name: 冷漠／Apathy
       author: LIANG Hai
@@ -127,8 +121,7 @@ patch:
       hilited_candidate_text_color: 0xEE6E00  #候选文字颜色
       hilited_candidate_back_color: 0xFFF0E4  #候选文字背景色
       comment_text_color: 0x999999  #拼音等提示文字颜色
-```
-```
+
     aqua:
       name: 碧水／Aqua
       author: 佛振 <chen.sst@gmail.com>
@@ -140,8 +133,7 @@ patch:
       hilited_candidate_back_color: 0xeefa3a0a
       comment_text_color: 0x5a5a5a
       hilited_comment_text_color: 0xfcac9d
-```
-```
+
     azure:
       name: 青天／Azure
       author: 佛振 <chen.sst@gmail.com>
@@ -152,8 +144,7 @@ patch:
       hilited_candidate_text_color: 0x7ffeff
       hilited_candidate_back_color: 0x00000000
       comment_text_color: 0xc69664
-```
-```
+
     clean_white:
       name: 简约白／Clean White
       author: Chongyu Zhu <lembacon@gmail.com>, based on 搜狗「简约白」
@@ -173,8 +164,7 @@ patch:
       hilited_candidate_label_color: 0xa0c98915
       hilited_candidate_text_color: 0xc98915
       hilited_candidate_back_color: 0xeeeeee
-```
-```
+
     dark_temple:
       name: 暗堂／Dark Temple
       author: 佛振 <chen.sst@gmail.com>, based on ir_black
@@ -186,8 +176,7 @@ patch:
       hilited_candidate_text_color: 0x92f6da
       hilited_candidate_back_color: 0x10000000  # 0x333333
       comment_text_color: 0x606cff
-```
-```
+
     dust:
       name: 浮尘／Dust
       author: Superoutman <asticosmo@gmail.com>
@@ -212,8 +201,7 @@ patch:
       hilited_candidate_back_color: 0xfff0e4             # 第一候选项背景背景色
       hilited_candidate_label_color: 0x555555            # 第一候选项编号颜色
       hilited_comment_text_color: 0x9e9e9e               # 注解文字高亮
-```
-```
+
     ink:
       name: 墨池／Ink
       author: 佛振 <chen.sst@gmail.com>
@@ -226,8 +214,7 @@ patch:
       hilited_candidate_back_color: 0xcc000000
       comment_text_color: 0x5a5a5a
       hilited_comment_text_color: 0x808080
-```
-```
+
     google:
       name: 谷歌／Google
       author: skoj <skoj@qq.com>
@@ -241,8 +228,7 @@ patch:
       hilited_candidate_back_color: 0xCE7539 #第一候选项背景
       comment_text_color: 0x6D6D6D #注解文字
       hilited_comment_text_color: 0xEBC6B0 #注解文字高亮
-```
-```
+
     luna:
       name: 明月／Luna
       author: 佛振 <chen.sst@gmail.com>
@@ -254,8 +240,7 @@ patch:
       hilited_candidate_back_color: 0x40000000
       comment_text_color: 0xa5a5a5
       hilited_comment_text_color: 0x449c9d
-```
-```
+
     lost_temple:
       name: 孤寺／Lost Temple
       author: 佛振 <chen.sst@gmail.com>, based on ir_black
@@ -266,8 +251,7 @@ patch:
       hilited_candidate_back_color: 0x82e6ca
       comment_text_color: 0xbb82e6ca
       hilited_comment_text_color: 0xbb203d34
-```
-```
+
     psionics:
       name: 幽能／Psionics
       author: 雨過之後、佛振
@@ -281,8 +265,7 @@ patch:
       hilited_candidate_back_color: 0xd4bc00
       comment_text_color: 0x808080
       hilited_comment_text_color: 0x444444  
-```
-```
+
     purity_of_form:
       name: 純粹的形式／Purity of Form
       author: 雨過之後、佛振
@@ -294,8 +277,7 @@ patch:
       hilited_candidate_text_color: 0x000000
       hilited_candidate_back_color: 0xfafafa
       comment_text_color: 0x808080
-```
-```
+
     purity_of_essence:
       name: 純粹的本質／Purity of Essence
       author: 佛振
@@ -307,8 +289,7 @@ patch:
       hilited_candidate_text_color: 0xeeeeee
       hilited_candidate_back_color: 0x444444
       comment_text_color: 0x808080  
-```
-```
+
     starcraft:
       name: 星際我爭霸／StarCraft
       author: Contralisk <contralisk@gmail.com>, original artwork by Blizzard Entertainment
@@ -322,8 +303,7 @@ patch:
       hilited_candidate_back_color: 0x00000000
       comment_text_color: 0x1010d0
       hilited_comment_text_color: 0x1010f0
-```
-```
+
     solarized_rock:
       name: 曬經石／Solarized Rock
       author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
@@ -336,8 +316,7 @@ patch:
       hilited_candidate_text_color: 0xffffff
       hilited_candidate_back_color: 0x8236d3
       hilited_comment_text_color: 0x362b00
-```
-```
+
     solarized_light:
       name: 曬經・日／Solarized Light
       author: 雪齋 <lyc20041@gmail.com>
@@ -355,8 +334,7 @@ patch:
       hilited_candidate_label_color: 0xCC8947 #Lab 55, -10, -45
       hilited_comment_text_color: 0x289989 #Lab 60, -20, 65
       hilited_text_color: 0xBE706D #Lab 50, 15, -45    
-```
-```
+
     solarized_dark:
       name: 曬經・月／Solarized Dark
       author: 雪齋 <lyc20041@gmail.com>
@@ -374,8 +352,7 @@ patch:
       hilited_candidate_label_color: 0x2566C6 #Lab 55, 45, 65
       hilited_comment_text_color: 0x8144C2 #Lab 50, 65, -5
       hilited_text_color: 0x2C8BAE #Lab 60, 10, 65
-```
-```
+
   app_options:    # App默认英文
     com.apple.Spotlight:
         ascii_mode: true      # 默认英文
