@@ -24,6 +24,7 @@ patch:
   #style/color_scheme: solarized_light   # 晒经日
   #style/color_scheme: solarized_dark   # 晒经月
 
+  #以下参数为全局皮肤数值，不建议修改
   text_orientation: horizontal  # horizontal | vertical
   inline_preedit: true
   corner_radius: 10
@@ -41,8 +42,8 @@ patch:
   #label_font_face: 'Lucida Grande'
   label_font_point: 18
 
+  #以下为单个皮肤主题参数，根据个人喜好修改 
   preset_color_schemes:
-
     native:
       name: 系統配色
 
