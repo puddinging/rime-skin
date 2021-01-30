@@ -3,9 +3,6 @@
 
 ```
 patch:
-  show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）  
-
-# 无（#）表示当前皮肤
   #style/color_scheme: native   # 系统配色
   style/color_scheme: macos_light   # Mac仿原生亮色
   #style/color_scheme: macos_dark    # Mac仿原生暗色
@@ -352,10 +349,4 @@ patch:
       hilited_candidate_label_color: 0x2566C6 #Lab 55, 45, 65
       hilited_comment_text_color: 0x8144C2 #Lab 50, 65, -5
       hilited_text_color: 0x2C8BAE #Lab 60, 10, 65
-
-  app_options:    # App默认英文
-    com.apple.Spotlight:
-        ascii_mode: true      # 默认英文
-    com.microsoft.VSCode:
-        ascii_mode: false     # 关闭默认英文
 ```
