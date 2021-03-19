@@ -3,28 +3,8 @@
 
 ```
 patch:
-  #style/color_scheme: native   # 系统配色
-  style/color_scheme: macos_light   # Mac仿原生亮色
-  #style/color_scheme: macos_dark    # Mac仿原生暗色
-  #style/color_scheme: apathy   # 冷漠
-  #style/color_scheme: aqua   # 碧水
-  #style/color_scheme: azure    # 青天
-  #style/color_scheme: clean_white    # 简约白
-  #style/color_scheme: dark_temple    # 暗堂
-  #style/color_scheme: dust   #浮尘
-  #style/color_scheme: ink    #墨池
-  #style/color_scheme: google   # 谷歌
-  #style/color_scheme: luna   # 明月
-  #style/color_scheme: lost_temple    # 孤寺
-  #style/color_scheme: psionics   # 幽能
-  #style/color_scheme: purity_of_form   # 纯粹的形式
-  #style/color_scheme: purity_of_essence    # 纯粹的本质
-  #style/color_scheme: starcraft    # 星际我争霸
-  #style/color_scheme: solarized_rock   # 晒经石
-  #style/color_scheme: solarized_light   # 晒经日
-  #style/color_scheme: solarized_dark   # 晒经月
-
-  #以下参数为全局皮肤数值，不建议修改
+  #style/color_scheme: macos_light   # 将皮肤名称输入在此处
+  
   text_orientation: horizontal  # horizontal | vertical
   inline_preedit: true
   corner_radius: 10
@@ -41,8 +21,7 @@ patch:
   font_point: 21
   #label_font_face: 'Lucida Grande'
   label_font_point: 18
-
-  #以下为单个皮肤主题参数，根据个人喜好修改 
+ 
   preset_color_schemes:
     native:
       name: 系統配色
