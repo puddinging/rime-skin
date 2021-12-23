@@ -1,26 +1,29 @@
 ##  Rime 鼠须管（Squirrel）皮肤效果
-![未标题-1](https://tva2.sinaimg.cn/large/008eZBHKgy1gn645oa9r2j31e02to7pm.jpg)
+![](https://tva2.sinaimg.cn/large/008eZBHKgy1gn645oa9r2j31e02to7pm.jpg)
 
-```
+
 patch:
-  #style/color_scheme: macos_light   # 将皮肤名称输入在此处
+  style/color_scheme: macos_light    # 将皮肤名称输入在此处
   
-  text_orientation: horizontal  # horizontal | vertical
-  inline_preedit: true
-  corner_radius: 10
-  hilited_corner_radius: 0
-  border_height: 0
-  border_width: 0
+  ```
+  # 皮肤里如果没有例如字体大小的代码，可以将此处里的添加进去
+  text_orientation: horizontal       # horizontal | vertical
+  inline_preedit: true               # 单行显示，false 双行显示
+  corner_radius: 10                  # 候选条圆角
+  hilited_corner_radius: 0           # 高亮圆角 
+  border_height: 0                   # 窗口上下高度
+  border_width: 0                    # 窗口左右宽度
   # space between candidates in stacked layout
-  line_spacing: 5
+  line_spacing: 5                    # 间距
   # space between preedit and candidates in non-inline mode
-  spacing: 10
-  #candidate_format: '%c. %@'
+  spacing: 10                        # 间距
+  #candidate_format: '%c. %@'        # 候选格式，用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
   #base_offset: 0
-  font_face: 'Lucida Grande'
-  font_point: 21
-  #label_font_face: 'Lucida Grande'
-  label_font_point: 18
+  font_face: 'Lucida Grande'         # 候选词编号字体
+  font_point: 17                     # 候选字体大小
+  #label_font_face: 'Lucida Grande'  # 候选词编号字体
+  label_font_point: 18               # 候选编号大小
+ ```
  
   preset_color_schemes:
     native:
@@ -329,4 +332,3 @@ patch:
       hilited_candidate_label_color: 0x2566C6 #Lab 55, 45, 65
       hilited_comment_text_color: 0x8144C2 #Lab 50, 65, -5
       hilited_text_color: 0x2C8BAE #Lab 60, 10, 65
-```
