@@ -1,9 +1,6 @@
 ##  Rime 鼠须管（Squirrel）皮肤效果
 ![](https://tva2.sinaimg.cn/large/008eZBHKgy1gn645oa9r2j31e02to7pm.jpg)
 
-
-patch:
-  style/color_scheme: macos_light    # 将皮肤名称输入在此处
   
   ```
   # 皮肤里如果没有例如字体大小的代码，可以将此处里的添加进去
@@ -24,11 +21,7 @@ patch:
   #label_font_face: 'Lucida Grande'  # 候选词编号字体
   label_font_point: 18               # 候选编号大小
  ```
- 
-  preset_color_schemes:
-    native:
-      name: 系統配色
-
+    
     macos_light:
       name: Mac仿原生亮色/macos_light
       author: 一方
