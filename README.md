@@ -3,7 +3,7 @@
 
   
   ```
-  # 皮肤里如果某些功能代码，可以将此处里的添加进去。例如字体大小
+  # 皮肤里如果没有某项功能，自行添加，例如字体大小
   text_orientation: horizontal       # horizontal | vertical
   inline_preedit: true               # 单行显示，false 双行显示
   corner_radius: 10                  # 候选条圆角
